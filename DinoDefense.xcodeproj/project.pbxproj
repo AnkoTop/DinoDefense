@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3516837F1BD578E0001B7C5C /* T-RexBossDead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3516837E1BD578E0001B7C5C /* T-RexBossDead.mp3 */; };
+		DAEAE8FB1BB68B79000ACA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE8FA1BB68B79000ACA2E /* AppDelegate.swift */; };
+		DAEAE8FD1BB68B79000ACA2E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE8FC1BB68B79000ACA2E /* GameScene.sks */; };
+		DAEAE8FF1BB68B79000ACA2E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE8FE1BB68B79000ACA2E /* GameScene.swift */; };
+		DAEAE9011BB68B79000ACA2E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE9001BB68B79000ACA2E /* GameViewController.swift */; };
+		DAEAE9041BB68B79000ACA2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9021BB68B79000ACA2E /* Main.storyboard */; };
+		DAEAE9061BB68B79000ACA2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9051BB68B79000ACA2E /* Assets.xcassets */; };
+		DAEAE9091BB68B79000ACA2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9071BB68B79000ACA2E /* LaunchScreen.storyboard */; };
+		DAEAE9651BB68E45000ACA2E /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE94A1BB68E45000ACA2E /* Background@2x.png */; };
+		DAEAE9661BB68E45000ACA2E /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE94B1BB68E45000ACA2E /* BackgroundMusic.mp3 */; };
+		DAEAE9671BB68E45000ACA2E /* BuildTower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE94C1BB68E45000ACA2E /* BuildTower.mp3 */; };
+		DAEAE9681BB68E45000ACA2E /* DinoDefenseLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE94D1BB68E45000ACA2E /* DinoDefenseLogo@2x.png */; };
+		DAEAE9691BB68E45000ACA2E /* Hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE94E1BB68E45000ACA2E /* Hit.mp3 */; };
+		DAEAE96A1BB68E45000ACA2E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE94F1BB68E45000ACA2E /* iTunesArtwork@2x.png */; };
+		DAEAE96B1BB68E45000ACA2E /* LifeLost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9501BB68E45000ACA2E /* LifeLost.mp3 */; };
+		DAEAE96C1BB68E45000ACA2E /* Menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9511BB68E45000ACA2E /* Menu.mp3 */; };
+		DAEAE96D1BB68E45000ACA2E /* NewWave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9521BB68E45000ACA2E /* NewWave.mp3 */; };
+		DAEAE96E1BB68E45000ACA2E /* NoBuildTower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9531BB68E45000ACA2E /* NoBuildTower.mp3 */; };
+		DAEAE96F1BB68E45000ACA2E /* RockTowerFire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9541BB68E45000ACA2E /* RockTowerFire.mp3 */; };
+		DAEAE9701BB68E45000ACA2E /* T-RexDead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9551BB68E45000ACA2E /* T-RexDead.mp3 */; };
+		DAEAE9711BB68E45000ACA2E /* TowerMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9561BB68E45000ACA2E /* TowerMenu@2x.png */; };
+		DAEAE9721BB68E45000ACA2E /* TowerPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9571BB68E45000ACA2E /* TowerPlaceholder@2x.png */; };
+		DAEAE9731BB68E45000ACA2E /* TowerSubMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9581BB68E45000ACA2E /* TowerSubMenu@2x.png */; };
+		DAEAE9741BB68E45000ACA2E /* TriceratopsDead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9591BB68E45000ACA2E /* TriceratopsDead.mp3 */; };
+		DAEAE9751BB68E45000ACA2E /* WoodTowerFire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE95A1BB68E45000ACA2E /* WoodTowerFire.mp3 */; };
+		DAEAE9761BB68E45000ACA2E /* YouLose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE95B1BB68E45000ACA2E /* YouLose.mp3 */; };
+		DAEAE9771BB68E45000ACA2E /* YouLose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE95C1BB68E45000ACA2E /* YouLose@2x.png */; };
+		DAEAE9781BB68E45000ACA2E /* YouWin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE95D1BB68E45000ACA2E /* YouWin.mp3 */; };
+		DAEAE9791BB68E45000ACA2E /* YouWin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE95E1BB68E45000ACA2E /* YouWin@2x.png */; };
+		DAEAE97A1BB68E45000ACA2E /* RockTower.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE95F1BB68E45000ACA2E /* RockTower.atlas */; };
+		DAEAE97B1BB68E45000ACA2E /* Scenary.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9601BB68E45000ACA2E /* Scenary.atlas */; };
+		DAEAE97C1BB68E45000ACA2E /* T-Rex.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9611BB68E45000ACA2E /* T-Rex.atlas */; };
+		DAEAE97D1BB68E45000ACA2E /* T-RexBoss.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9621BB68E45000ACA2E /* T-RexBoss.atlas */; };
+		DAEAE97E1BB68E45000ACA2E /* Triceratops.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9631BB68E45000ACA2E /* Triceratops.atlas */; };
+		DAEAE97F1BB68E45000ACA2E /* WoodTower.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9641BB68E45000ACA2E /* WoodTower.atlas */; };
+		DAEAE9861BB68E66000ACA2E /* TowerSelector.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9801BB68E66000ACA2E /* TowerSelector.sks */; };
+		DAEAE9871BB68E66000ACA2E /* ReadyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9811BB68E66000ACA2E /* ReadyScene.sks */; };
+		DAEAE9881BB68E66000ACA2E /* LoseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9821BB68E66000ACA2E /* LoseScene.sks */; };
+		DAEAE9891BB68E66000ACA2E /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE9831BB68E66000ACA2E /* WinScene.sks */; };
+		DAEAE98A1BB68E66000ACA2E /* GameStateOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE9841BB68E66000ACA2E /* GameStateOverlays.swift */; };
+		DAEAE98B1BB68E66000ACA2E /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE9851BB68E66000ACA2E /* GameState.swift */; };
+		DAEAE98D1BB68EBC000ACA2E /* GameSceneHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE98C1BB68EBC000ACA2E /* GameSceneHelper.swift */; };
+		DAEAE9911BB6A05E000ACA2E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE9901BB6A05E000ACA2E /* Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3516837E1BD578E0001B7C5C /* T-RexBossDead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "T-RexBossDead.mp3"; sourceTree = "<group>"; };
+		DAEAE8F71BB68B79000ACA2E /* DinoDefense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinoDefense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAEAE8FA1BB68B79000ACA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAEAE8FC1BB68B79000ACA2E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DAEAE8FE1BB68B79000ACA2E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DAEAE9001BB68B79000ACA2E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DAEAE9031BB68B79000ACA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAEAE9051BB68B79000ACA2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAEAE9081BB68B79000ACA2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAEAE90A1BB68B79000ACA2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEAE94A1BB68E45000ACA2E /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		DAEAE94B1BB68E45000ACA2E /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
+		DAEAE94C1BB68E45000ACA2E /* BuildTower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BuildTower.mp3; sourceTree = "<group>"; };
+		DAEAE94D1BB68E45000ACA2E /* DinoDefenseLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DinoDefenseLogo@2x.png"; sourceTree = "<group>"; };
+		DAEAE94E1BB68E45000ACA2E /* Hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hit.mp3; sourceTree = "<group>"; };
+		DAEAE94F1BB68E45000ACA2E /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		DAEAE9501BB68E45000ACA2E /* LifeLost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LifeLost.mp3; sourceTree = "<group>"; };
+		DAEAE9511BB68E45000ACA2E /* Menu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Menu.mp3; sourceTree = "<group>"; };
+		DAEAE9521BB68E45000ACA2E /* NewWave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NewWave.mp3; sourceTree = "<group>"; };
+		DAEAE9531BB68E45000ACA2E /* NoBuildTower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NoBuildTower.mp3; sourceTree = "<group>"; };
+		DAEAE9541BB68E45000ACA2E /* RockTowerFire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RockTowerFire.mp3; sourceTree = "<group>"; };
+		DAEAE9551BB68E45000ACA2E /* T-RexDead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "T-RexDead.mp3"; sourceTree = "<group>"; };
+		DAEAE9561BB68E45000ACA2E /* TowerMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerMenu@2x.png"; sourceTree = "<group>"; };
+		DAEAE9571BB68E45000ACA2E /* TowerPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerPlaceholder@2x.png"; sourceTree = "<group>"; };
+		DAEAE9581BB68E45000ACA2E /* TowerSubMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TowerSubMenu@2x.png"; sourceTree = "<group>"; };
+		DAEAE9591BB68E45000ACA2E /* TriceratopsDead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TriceratopsDead.mp3; sourceTree = "<group>"; };
+		DAEAE95A1BB68E45000ACA2E /* WoodTowerFire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WoodTowerFire.mp3; sourceTree = "<group>"; };
+		DAEAE95B1BB68E45000ACA2E /* YouLose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YouLose.mp3; sourceTree = "<group>"; };
+		DAEAE95C1BB68E45000ACA2E /* YouLose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YouLose@2x.png"; sourceTree = "<group>"; };
+		DAEAE95D1BB68E45000ACA2E /* YouWin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YouWin.mp3; sourceTree = "<group>"; };
+		DAEAE95E1BB68E45000ACA2E /* YouWin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "YouWin@2x.png"; sourceTree = "<group>"; };
+		DAEAE95F1BB68E45000ACA2E /* RockTower.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RockTower.atlas; sourceTree = "<group>"; };
+		DAEAE9601BB68E45000ACA2E /* Scenary.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Scenary.atlas; sourceTree = "<group>"; };
+		DAEAE9611BB68E45000ACA2E /* T-Rex.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "T-Rex.atlas"; sourceTree = "<group>"; };
+		DAEAE9621BB68E45000ACA2E /* T-RexBoss.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "T-RexBoss.atlas"; sourceTree = "<group>"; };
+		DAEAE9631BB68E45000ACA2E /* Triceratops.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Triceratops.atlas; sourceTree = "<group>"; };
+		DAEAE9641BB68E45000ACA2E /* WoodTower.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WoodTower.atlas; sourceTree = "<group>"; };
+		DAEAE9801BB68E66000ACA2E /* TowerSelector.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TowerSelector.sks; sourceTree = "<group>"; };
+		DAEAE9811BB68E66000ACA2E /* ReadyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ReadyScene.sks; sourceTree = "<group>"; };
+		DAEAE9821BB68E66000ACA2E /* LoseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoseScene.sks; sourceTree = "<group>"; };
+		DAEAE9831BB68E66000ACA2E /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
+		DAEAE9841BB68E66000ACA2E /* GameStateOverlays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStateOverlays.swift; sourceTree = "<group>"; };
+		DAEAE9851BB68E66000ACA2E /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		DAEAE98C1BB68EBC000ACA2E /* GameSceneHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneHelper.swift; sourceTree = "<group>"; };
+		DAEAE9901BB6A05E000ACA2E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAEAE8F41BB68B79000ACA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAEAE8EE1BB68B79000ACA2E = {
+			isa = PBXGroup;
+			children = (
+				DAEAE8F91BB68B79000ACA2E /* DinoDefense */,
+				DAEAE8F81BB68B79000ACA2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAEAE8F81BB68B79000ACA2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAE8F71BB68B79000ACA2E /* DinoDefense.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAEAE8F91BB68B79000ACA2E /* DinoDefense */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAE8FE1BB68B79000ACA2E /* GameScene.swift */,
+				DAEAE8FC1BB68B79000ACA2E /* GameScene.sks */,
+				DAEAE9851BB68E66000ACA2E /* GameState.swift */,
+				DAEAE9481BB68E45000ACA2E /* ArtAndSounds */,
+				DAEAE8FA1BB68B79000ACA2E /* AppDelegate.swift */,
+				DAEAE98C1BB68EBC000ACA2E /* GameSceneHelper.swift */,
+				DAEAE9841BB68E66000ACA2E /* GameStateOverlays.swift */,
+				DAEAE9901BB6A05E000ACA2E /* Utils.swift */,
+				DAEAE9801BB68E66000ACA2E /* TowerSelector.sks */,
+				DAEAE9811BB68E66000ACA2E /* ReadyScene.sks */,
+				DAEAE9821BB68E66000ACA2E /* LoseScene.sks */,
+				DAEAE9831BB68E66000ACA2E /* WinScene.sks */,
+				DAEAE9001BB68B79000ACA2E /* GameViewController.swift */,
+				DAEAE9021BB68B79000ACA2E /* Main.storyboard */,
+				DAEAE9051BB68B79000ACA2E /* Assets.xcassets */,
+				DAEAE9071BB68B79000ACA2E /* LaunchScreen.storyboard */,
+				DAEAE90A1BB68B79000ACA2E /* Info.plist */,
+			);
+			path = DinoDefense;
+			sourceTree = "<group>";
+		};
+		DAEAE9481BB68E45000ACA2E /* ArtAndSounds */ = {
+			isa = PBXGroup;
+			children = (
+				DAEAE9491BB68E45000ACA2E /* Assets */,
+				DAEAE95F1BB68E45000ACA2E /* RockTower.atlas */,
+				DAEAE9601BB68E45000ACA2E /* Scenary.atlas */,
+				DAEAE9611BB68E45000ACA2E /* T-Rex.atlas */,
+				DAEAE9621BB68E45000ACA2E /* T-RexBoss.atlas */,
+				DAEAE9631BB68E45000ACA2E /* Triceratops.atlas */,
+				DAEAE9641BB68E45000ACA2E /* WoodTower.atlas */,
+			);
+			path = ArtAndSounds;
+			sourceTree = "<group>";
+		};
+		DAEAE9491BB68E45000ACA2E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3516837E1BD578E0001B7C5C /* T-RexBossDead.mp3 */,
+				DAEAE94A1BB68E45000ACA2E /* Background@2x.png */,
+				DAEAE94B1BB68E45000ACA2E /* BackgroundMusic.mp3 */,
+				DAEAE94C1BB68E45000ACA2E /* BuildTower.mp3 */,
+				DAEAE94D1BB68E45000ACA2E /* DinoDefenseLogo@2x.png */,
+				DAEAE94E1BB68E45000ACA2E /* Hit.mp3 */,
+				DAEAE94F1BB68E45000ACA2E /* iTunesArtwork@2x.png */,
+				DAEAE9501BB68E45000ACA2E /* LifeLost.mp3 */,
+				DAEAE9511BB68E45000ACA2E /* Menu.mp3 */,
+				DAEAE9521BB68E45000ACA2E /* NewWave.mp3 */,
+				DAEAE9531BB68E45000ACA2E /* NoBuildTower.mp3 */,
+				DAEAE9541BB68E45000ACA2E /* RockTowerFire.mp3 */,
+				DAEAE9551BB68E45000ACA2E /* T-RexDead.mp3 */,
+				DAEAE9561BB68E45000ACA2E /* TowerMenu@2x.png */,
+				DAEAE9571BB68E45000ACA2E /* TowerPlaceholder@2x.png */,
+				DAEAE9581BB68E45000ACA2E /* TowerSubMenu@2x.png */,
+				DAEAE9591BB68E45000ACA2E /* TriceratopsDead.mp3 */,
+				DAEAE95A1BB68E45000ACA2E /* WoodTowerFire.mp3 */,
+				DAEAE95B1BB68E45000ACA2E /* YouLose.mp3 */,
+				DAEAE95C1BB68E45000ACA2E /* YouLose@2x.png */,
+				DAEAE95D1BB68E45000ACA2E /* YouWin.mp3 */,
+				DAEAE95E1BB68E45000ACA2E /* YouWin@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAEAE8F61BB68B79000ACA2E /* DinoDefense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAEAE90D1BB68B79000ACA2E /* Build configuration list for PBXNativeTarget "DinoDefense" */;
+			buildPhases = (
+				DAEAE8F31BB68B79000ACA2E /* Sources */,
+				DAEAE8F41BB68B79000ACA2E /* Frameworks */,
+				DAEAE8F51BB68B79000ACA2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoDefense;
+			productName = DinoDefense;
+			productReference = DAEAE8F71BB68B79000ACA2E /* DinoDefense.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAEAE8EF1BB68B79000ACA2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = razeware;
+				TargetAttributes = {
+					DAEAE8F61BB68B79000ACA2E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = DAEAE8F21BB68B79000ACA2E /* Build configuration list for PBXProject "DinoDefense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAEAE8EE1BB68B79000ACA2E;
+			productRefGroup = DAEAE8F81BB68B79000ACA2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEAE8F61BB68B79000ACA2E /* DinoDefense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAEAE8F51BB68B79000ACA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEAE97D1BB68E45000ACA2E /* T-RexBoss.atlas in Resources */,
+				DAEAE97B1BB68E45000ACA2E /* Scenary.atlas in Resources */,
+				DAEAE9861BB68E66000ACA2E /* TowerSelector.sks in Resources */,
+				DAEAE9681BB68E45000ACA2E /* DinoDefenseLogo@2x.png in Resources */,
+				3516837F1BD578E0001B7C5C /* T-RexBossDead.mp3 in Resources */,
+				DAEAE96A1BB68E45000ACA2E /* iTunesArtwork@2x.png in Resources */,
+				DAEAE9721BB68E45000ACA2E /* TowerPlaceholder@2x.png in Resources */,
+				DAEAE9781BB68E45000ACA2E /* YouWin.mp3 in Resources */,
+				DAEAE9871BB68E66000ACA2E /* ReadyScene.sks in Resources */,
+				DAEAE9661BB68E45000ACA2E /* BackgroundMusic.mp3 in Resources */,
+				DAEAE97C1BB68E45000ACA2E /* T-Rex.atlas in Resources */,
+				DAEAE96D1BB68E45000ACA2E /* NewWave.mp3 in Resources */,
+				DAEAE9761BB68E45000ACA2E /* YouLose.mp3 in Resources */,
+				DAEAE96C1BB68E45000ACA2E /* Menu.mp3 in Resources */,
+				DAEAE8FD1BB68B79000ACA2E /* GameScene.sks in Resources */,
+				DAEAE9691BB68E45000ACA2E /* Hit.mp3 in Resources */,
+				DAEAE9791BB68E45000ACA2E /* YouWin@2x.png in Resources */,
+				DAEAE97E1BB68E45000ACA2E /* Triceratops.atlas in Resources */,
+				DAEAE9891BB68E66000ACA2E /* WinScene.sks in Resources */,
+				DAEAE97F1BB68E45000ACA2E /* WoodTower.atlas in Resources */,
+				DAEAE9671BB68E45000ACA2E /* BuildTower.mp3 in Resources */,
+				DAEAE9711BB68E45000ACA2E /* TowerMenu@2x.png in Resources */,
+				DAEAE9091BB68B79000ACA2E /* LaunchScreen.storyboard in Resources */,
+				DAEAE9701BB68E45000ACA2E /* T-RexDead.mp3 in Resources */,
+				DAEAE9751BB68E45000ACA2E /* WoodTowerFire.mp3 in Resources */,
+				DAEAE9061BB68B79000ACA2E /* Assets.xcassets in Resources */,
+				DAEAE96B1BB68E45000ACA2E /* LifeLost.mp3 in Resources */,
+				DAEAE9771BB68E45000ACA2E /* YouLose@2x.png in Resources */,
+				DAEAE9651BB68E45000ACA2E /* Background@2x.png in Resources */,
+				DAEAE97A1BB68E45000ACA2E /* RockTower.atlas in Resources */,
+				DAEAE96F1BB68E45000ACA2E /* RockTowerFire.mp3 in Resources */,
+				DAEAE9881BB68E66000ACA2E /* LoseScene.sks in Resources */,
+				DAEAE96E1BB68E45000ACA2E /* NoBuildTower.mp3 in Resources */,
+				DAEAE9731BB68E45000ACA2E /* TowerSubMenu@2x.png in Resources */,
+				DAEAE9041BB68B79000ACA2E /* Main.storyboard in Resources */,
+				DAEAE9741BB68E45000ACA2E /* TriceratopsDead.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAEAE8F31BB68B79000ACA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEAE98D1BB68EBC000ACA2E /* GameSceneHelper.swift in Sources */,
+				DAEAE8FF1BB68B79000ACA2E /* GameScene.swift in Sources */,
+				DAEAE9011BB68B79000ACA2E /* GameViewController.swift in Sources */,
+				DAEAE9911BB6A05E000ACA2E /* Utils.swift in Sources */,
+				DAEAE98B1BB68E66000ACA2E /* GameState.swift in Sources */,
+				DAEAE98A1BB68E66000ACA2E /* GameStateOverlays.swift in Sources */,
+				DAEAE8FB1BB68B79000ACA2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAEAE9021BB68B79000ACA2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEAE9031BB68B79000ACA2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAEAE9071BB68B79000ACA2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAEAE9081BB68B79000ACA2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAEAE90B1BB68B79000ACA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAEAE90C1BB68B79000ACA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAEAE90E1BB68B79000ACA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DinoDefense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DinoDefense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAEAE90F1BB68B79000ACA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DinoDefense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DinoDefense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAEAE8F21BB68B79000ACA2E /* Build configuration list for PBXProject "DinoDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEAE90B1BB68B79000ACA2E /* Debug */,
+				DAEAE90C1BB68B79000ACA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAEAE90D1BB68B79000ACA2E /* Build configuration list for PBXNativeTarget "DinoDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAEAE90E1BB68B79000ACA2E /* Debug */,
+				DAEAE90F1BB68B79000ACA2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAEAE8EF1BB68B79000ACA2E /* Project object */;
+}
