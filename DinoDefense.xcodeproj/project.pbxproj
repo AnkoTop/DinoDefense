@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3516837F1BD578E0001B7C5C /* T-RexBossDead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3516837E1BD578E0001B7C5C /* T-RexBossDead.mp3 */; };
+		A4D7A7361D47F5E2000493EC /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A7351D47F5E2000493EC /* SpriteComponent.swift */; };
+		A4D7A7391D47F6C0000493EC /* DinosaurEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A7381D47F6C0000493EC /* DinosaurEntity.swift */; };
+		A4D7A73B1D47F8A9000493EC /* ShadowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A73A1D47F8A9000493EC /* ShadowComponent.swift */; };
+		A4D7A73D1D47F9D9000493EC /* AnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A73C1D47F9D9000493EC /* AnimationComponent.swift */; };
+		A4D7A73F1D4A961F000493EC /* TowerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A73E1D4A961F000493EC /* TowerEntity.swift */; };
+		A4D7A7411D4A9953000493EC /* FiringComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A7401D4A9953000493EC /* FiringComponent.swift */; };
+		A4D7A7431D4A99B0000493EC /* ProjectileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A7421D4A99B0000493EC /* ProjectileEntity.swift */; };
 		DAEAE8FB1BB68B79000ACA2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE8FA1BB68B79000ACA2E /* AppDelegate.swift */; };
 		DAEAE8FD1BB68B79000ACA2E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DAEAE8FC1BB68B79000ACA2E /* GameScene.sks */; };
 		DAEAE8FF1BB68B79000ACA2E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEAE8FE1BB68B79000ACA2E /* GameScene.swift */; };
@@ -54,6 +61,13 @@
 
 /* Begin PBXFileReference section */
 		3516837E1BD578E0001B7C5C /* T-RexBossDead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "T-RexBossDead.mp3"; sourceTree = "<group>"; };
+		A4D7A7351D47F5E2000493EC /* SpriteComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteComponent.swift; sourceTree = "<group>"; };
+		A4D7A7381D47F6C0000493EC /* DinosaurEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinosaurEntity.swift; sourceTree = "<group>"; };
+		A4D7A73A1D47F8A9000493EC /* ShadowComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowComponent.swift; sourceTree = "<group>"; };
+		A4D7A73C1D47F9D9000493EC /* AnimationComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationComponent.swift; sourceTree = "<group>"; };
+		A4D7A73E1D4A961F000493EC /* TowerEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TowerEntity.swift; sourceTree = "<group>"; };
+		A4D7A7401D4A9953000493EC /* FiringComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiringComponent.swift; sourceTree = "<group>"; };
+		A4D7A7421D4A99B0000493EC /* ProjectileEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectileEntity.swift; sourceTree = "<group>"; };
 		DAEAE8F71BB68B79000ACA2E /* DinoDefense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinoDefense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEAE8FA1BB68B79000ACA2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEAE8FC1BB68B79000ACA2E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -111,6 +125,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4D7A7341D47F5A8000493EC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7A7351D47F5E2000493EC /* SpriteComponent.swift */,
+				A4D7A73A1D47F8A9000493EC /* ShadowComponent.swift */,
+				A4D7A73C1D47F9D9000493EC /* AnimationComponent.swift */,
+				A4D7A7401D4A9953000493EC /* FiringComponent.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		A4D7A7371D47F6A0000493EC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7A7381D47F6C0000493EC /* DinosaurEntity.swift */,
+				A4D7A73E1D4A961F000493EC /* TowerEntity.swift */,
+				A4D7A7421D4A99B0000493EC /* ProjectileEntity.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
 		DAEAE8EE1BB68B79000ACA2E = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +165,8 @@
 		DAEAE8F91BB68B79000ACA2E /* DinoDefense */ = {
 			isa = PBXGroup;
 			children = (
+				A4D7A7371D47F6A0000493EC /* Entity */,
+				A4D7A7341D47F5A8000493EC /* Components */,
 				DAEAE8FE1BB68B79000ACA2E /* GameScene.swift */,
 				DAEAE8FC1BB68B79000ACA2E /* GameScene.sks */,
 				DAEAE9851BB68E66000ACA2E /* GameState.swift */,
@@ -298,9 +335,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEAE98D1BB68EBC000ACA2E /* GameSceneHelper.swift in Sources */,
+				A4D7A73D1D47F9D9000493EC /* AnimationComponent.swift in Sources */,
+				A4D7A73F1D4A961F000493EC /* TowerEntity.swift in Sources */,
+				A4D7A7411D4A9953000493EC /* FiringComponent.swift in Sources */,
 				DAEAE8FF1BB68B79000ACA2E /* GameScene.swift in Sources */,
+				A4D7A7361D47F5E2000493EC /* SpriteComponent.swift in Sources */,
+				A4D7A73B1D47F8A9000493EC /* ShadowComponent.swift in Sources */,
 				DAEAE9011BB68B79000ACA2E /* GameViewController.swift in Sources */,
 				DAEAE9911BB6A05E000ACA2E /* Utils.swift in Sources */,
+				A4D7A7431D4A99B0000493EC /* ProjectileEntity.swift in Sources */,
+				A4D7A7391D47F6C0000493EC /* DinosaurEntity.swift in Sources */,
 				DAEAE98B1BB68E66000ACA2E /* GameState.swift in Sources */,
 				DAEAE98A1BB68E66000ACA2E /* GameStateOverlays.swift in Sources */,
 				DAEAE8FB1BB68B79000ACA2E /* AppDelegate.swift in Sources */,
@@ -419,7 +463,7 @@
 				INFOPLIST_FILE = DinoDefense/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DinoDefense;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ractivity.DinoDefense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -431,7 +475,7 @@
 				INFOPLIST_FILE = DinoDefense/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.DinoDefense;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ractivity.DinoDefense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
