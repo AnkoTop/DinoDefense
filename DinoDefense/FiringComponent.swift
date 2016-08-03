@@ -46,10 +46,18 @@ class FiringComponent: GKComponent {
         // 4
         let soundAction = SKAction.playSoundFileNamed("\(towerType.rawValue)Fire.mp3", waitForCompletion: false)
         let fireAction = SKAction.moveBy(fireVector, duration: 0.4)
+        
+        let damageAction = SKAction.runBlock { () -> Void in
+            target.healthComponent.takeDamage(self.towerType.damage)
+        }
+        
+        
         let removeAction = SKAction.runBlock { () -> Void in
             projectileNode.removeFromParent()
         }
-        let action = SKAction.sequence([soundAction, fireAction, removeAction])
+        
+        let action = SKAction.sequence([soundAction, fireAction, damageAction, removeAction])
+        
         projectileNode.runAction(action)
     }
 }

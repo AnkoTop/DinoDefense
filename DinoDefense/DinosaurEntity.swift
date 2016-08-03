@@ -14,6 +14,14 @@ enum DinosaurType: String {
     case TRex = "T-Rex"
     case Triceratops = "Triceratops"
     case TRexBoss = "T-RexBoss"
+    
+    var health: Int {
+        switch self {
+        case .TRex: return 60
+        case .Triceratops: return 40
+        case .TRexBoss: return 1000
+        }
+    }
 }
 
 class DinosaurEntity: GKEntity {
@@ -23,6 +31,7 @@ class DinosaurEntity: GKEntity {
     var spriteComponent: SpriteComponent!
     var shadowComponent: ShadowComponent!
     var animationComponent: AnimationComponent!
+    var healthComponent: HealthComponent!
  
     // 2
     init(dinosaurType: DinosaurType) {
@@ -54,6 +63,9 @@ class DinosaurEntity: GKEntity {
         // 7 animationcomponent
         animationComponent = AnimationComponent(node: spriteComponent.node,textureSize: size, animations: loadAnimations())
         addComponent(animationComponent)
+        
+        // 8 healthcomponent
+        healthComponent = HealthComponent(parentNode: spriteComponent.node, barWidth: size.width, barOffset: 60, health: dinosaurType.health)
     }
     
     func loadAnimations() -> [AnimationState: Animation] {

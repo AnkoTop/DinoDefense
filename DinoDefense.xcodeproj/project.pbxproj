@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3516837F1BD578E0001B7C5C /* T-RexBossDead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3516837E1BD578E0001B7C5C /* T-RexBossDead.mp3 */; };
+		A415CD651D528F7D003F93F8 /* HealthComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415CD641D528F7D003F93F8 /* HealthComponent.swift */; };
 		A4D7A7361D47F5E2000493EC /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A7351D47F5E2000493EC /* SpriteComponent.swift */; };
 		A4D7A7391D47F6C0000493EC /* DinosaurEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A7381D47F6C0000493EC /* DinosaurEntity.swift */; };
 		A4D7A73B1D47F8A9000493EC /* ShadowComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7A73A1D47F8A9000493EC /* ShadowComponent.swift */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		3516837E1BD578E0001B7C5C /* T-RexBossDead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "T-RexBossDead.mp3"; sourceTree = "<group>"; };
+		A415CD641D528F7D003F93F8 /* HealthComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthComponent.swift; sourceTree = "<group>"; };
 		A4D7A7351D47F5E2000493EC /* SpriteComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteComponent.swift; sourceTree = "<group>"; };
 		A4D7A7381D47F6C0000493EC /* DinosaurEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinosaurEntity.swift; sourceTree = "<group>"; };
 		A4D7A73A1D47F8A9000493EC /* ShadowComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowComponent.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				A4D7A73A1D47F8A9000493EC /* ShadowComponent.swift */,
 				A4D7A73C1D47F9D9000493EC /* AnimationComponent.swift */,
 				A4D7A7401D4A9953000493EC /* FiringComponent.swift */,
+				A415CD641D528F7D003F93F8 /* HealthComponent.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				A4D7A7361D47F5E2000493EC /* SpriteComponent.swift in Sources */,
 				A4D7A73B1D47F8A9000493EC /* ShadowComponent.swift in Sources */,
 				DAEAE9011BB68B79000ACA2E /* GameViewController.swift in Sources */,
+				A415CD651D528F7D003F93F8 /* HealthComponent.swift in Sources */,
 				DAEAE9911BB6A05E000ACA2E /* Utils.swift in Sources */,
 				A4D7A7431D4A99B0000493EC /* ProjectileEntity.swift in Sources */,
 				A4D7A7391D47F6C0000493EC /* DinosaurEntity.swift in Sources */,
